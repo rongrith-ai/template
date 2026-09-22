@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data, Runtime & Ephemeral Caches
+data/*
+!data/**/.gitkeep
+configs/*
+!configs/.gitkeep
+
+# Environment & Secrets
+.env
+*.local
