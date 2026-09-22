@@ -5,7 +5,7 @@
 ---
 
 ## 1. Operating Protocol (ลำดับขั้นตอนปฏิบัติงาน)
-1. **System Governance:** อ่านและยึดข้อกำหนดใน `AGENTS.md` เป็นแนวทางหลักเสมอ
+1. **System Governance: อ่านและยึดข้อกำหนดใน AGENTS.md เป็นแนวทางหลัก พร้อมทั้งศึกษาพิมพ์เขียว 12 เสาหลักจาก docs/ARCHITECTURE.md ก่อนวางโครงสร้างโค้ดเสมอ
 2. **Task Intake:** อ่าน Scope, Functional Requirements และเงื่อนไขการทดสอบจาก `FEEDBACK.md` เท่านั้น (ห้ามเพิ่ม Scope เอง)
 3. **Execution Plan:** แตกรายการงานย่อยเป็น Checkbox ลงใน `TASK.md` ก่อนเริ่มแตะโค้ด และอัปเดตสถานะ `[x]` ทุกครั้งที่เสร็จแต่ละข้อย่อย
 4. **Verification First:** เขียนหรือปรับปรุง Automated Test ใน `tests/` ควบคู่เสมอ และต้องรัน `pytest` ผ่านครบ 100% ก่อนส่งมอบงาน
